@@ -3,8 +3,7 @@ import { AppSidebar, AppHeader } from '@/components/layout'
 import { Button, Input } from '@/components/ui'
 import { quotaService, type LLMConfig } from '@/services/quotaService'
 import { useToast } from '@/hooks/useToast'
-import { Settings, Eye, EyeOff, MessageCircle, Cpu } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Settings, Eye, EyeOff, Cpu } from 'lucide-react'
 
 export function ProfilePage() {
   const [activeTab] = useState('settings')
@@ -227,13 +226,6 @@ function PasswordSection({
         <p className="text-xs text-muted">
           输入正确的访问密码后，可无限制使用 AI 功能，不消耗每日配额。
         </p>
-        <Link
-          to="/about"
-          className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
-        >
-          <MessageCircle className="h-3 w-3" />
-          <span>赞赏作者，进群可获得访问密码</span>
-        </Link>
         <div className="flex gap-2">
           <Button size="sm" onClick={onSave}>
             保存

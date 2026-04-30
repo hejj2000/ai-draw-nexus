@@ -1,7 +1,4 @@
 # AI Diagram Hub
-[中文版](https://github.com/liujuntao123/ai-draw-nexus/blob/main/README.zh-CN.md)
-
-**Online**: https://ai-draw-nexus.aizhi.site
 
 ![generated-image-1766740104116](https://github.com/user-attachments/assets/3e69fa19-d31f-40b2-976c-ddb24ac138c1)
 
@@ -91,8 +88,8 @@ In the chat panel on the right side of the editor, you can:
 ### 1. Clone and Install Dependencies
 
 ```bash
-git clone https://github.com/liujuntao123/smart-ai-draw
-cd smart-ai-draw
+git clone <your-repo-url>
+cd <your-project-name>
 pnpm install
 ```
 

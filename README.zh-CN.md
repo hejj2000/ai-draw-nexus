@@ -1,7 +1,5 @@
 # AI Diagram Hub
 
-**Online**: https://ai-draw-nexus.aizhi.site
-
 一个 AI 驱动的图表创作平台，用自然语言描述你想要的图表，AI 帮你生成。
 
 基于 Cloudflare Pages 构建，前端 React + 后端 Pages Functions 一体化部署。
@@ -88,8 +86,8 @@
 ### 1. 克隆项目并安装依赖
 
 ```bash
-git clone https://github.com/liujuntao123/smart-ai-draw
-cd smart-ai-draw
+git clone <your-repo-url>
+cd <your-project-name>
 pnpm install
 ```
 
